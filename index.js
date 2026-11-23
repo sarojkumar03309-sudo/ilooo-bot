@@ -4,7 +4,7 @@ const bot = mineflayer.createBot({
   host: 'apnajava.aternos.me', // यहाँ अपने सर्वर का IP डालें
   port: 32993,                   // यहाँ सर्वर का पोर्ट डालें (ज़रूरत हो तो बदलें)
   username: 'AFK_Bot',           // बॉट का नाम
-  version: 1.26.3                 // अपने आप वर्शन पहचानने के लिए
+  version: '1.26.3',                // अपने आप वर्शन पहचानने के लिए
 });
 
 bot.on('spawn', () => {
